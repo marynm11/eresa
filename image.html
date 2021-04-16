@@ -4,17 +4,35 @@
  <head>
    <title>images page</title>
 <style>
+body{
+  background:tan;
+  background:linear-gradient(to left, red, purple, blue);
+}
   img{
     border: 3px solid black;
     box-shadow: 2px 2px 5px;
   }
+#box1{
+  width:80%;
+  height:200px;
+  background-image:linear-gradient(to right, green, teal, indigo);
+}
+
+#box2{
+  width:80%;
+  height:200px;
+  background-image: linear-gradient(to left, salmon, yellow, orange);
+}
   </style>
  </head>
 
  <body>
    <h1> this is an images page </h1>
-
+<div id="box1"></div>
    <img src="bee-guy" alt="bee friend"/>
+   <h1>------------------------</h1>
+   <div id="box2"></div>
+   <img src="face" alt="funky face"/>
 
  </body>
 
